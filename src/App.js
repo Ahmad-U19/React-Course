@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import RefsDemo from './Components/RefsDemo'
+import PortalDemo from './Components/PortalDemo'
+//import RefsDemo from './Components/RefsDemo'
 //import PureComp from './Components/PureComp'
 //import MemoComp from './Components/MemoComp'
 
@@ -9,7 +10,8 @@ export default class App extends Component {
       <div>
         {/* <PureComp />
         <MemoComp name={this.state.name}/> */}
-        <RefsDemo />
+        {/* <RefsDemo /> */}
+        <PortalDemo />
       </div>
     )
   }
